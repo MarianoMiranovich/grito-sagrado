@@ -1,0 +1,36 @@
+.section-4 {
+    display: flex;
+    font-family: $fuente-principal;
+    gap: 10px;
+    margin-bottom: 70px;
+    div {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        text-align: center;
+        gap: 20px;
+        .tarjetas {
+            grid-column: 1/2;
+            justify-self: center;
+            width: 30%;
+        }    
+    }
+    .contain-envios {
+        border-left: 1px solid map-get($colores-sitio, border );
+        img {
+            grid-column: 2/3;
+            justify-self: center;
+            width: 30%;
+        }
+    }
+    .seguridad {
+        grid-column: 3/4;
+        justify-self: center;
+        width: 30%;
+    }
+    .contain-seguridad {
+        border-left: 1px solid map-get($colores-sitio, border );
+    }
+
+}

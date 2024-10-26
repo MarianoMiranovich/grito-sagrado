@@ -1,0 +1,142 @@
+.section-3 {
+    display: grid;
+    font-family: $fuente-principal;
+    gap: 20px;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(4,23%);
+    img {
+        width: 100%;
+        object-fit: cover;
+    }
+    .contain-banner-2 {
+        grid-row: 1/3;
+        grid-column: 1/6;
+        position: relative;
+        border-top: 1px solid rgba(0, 0, 0, 0.575);
+        img{
+
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        h3{
+            position: absolute;
+            top: 53%;
+            left: 31%;
+            font-size: 36px;
+            font-weight: 400;
+        
+        }
+    }
+    .contain-terapias {
+        grid-row: 2/3;
+        grid-column: 2/3;
+        position: relative;
+        img{
+
+            width: 100%;
+            height: 100%;
+            border: 3px solid rgba(0, 0, 0, 0.75);
+            margin-top: 100px;
+        
+        }
+        h2 {
+            position: absolute;
+            left: 32%;
+            top: 115%;
+            font-weight: 100;
+        }
+    }
+    .contain-recursos {
+        grid-row: 2/3;
+        grid-column: 3/4;
+        position: relative;
+        img{
+
+            height: 100%;
+            border: 3px solid rgba(0, 0, 0, 0.75);
+            margin-top: 100px;
+        }
+        h2 {
+            position: absolute;
+            left: 32%;
+            top: 115%;
+            font-weight: 100;
+        }
+    }
+    .contain-reiki {
+        grid-row: 2/3;
+        grid-column: 4/5;
+        position: relative;
+        img {
+
+            width: 100%;
+            height: 100%;
+            border: 3px solid rgba(0, 0, 0, 0.75);
+            margin-top: 100px;
+        }
+        h2 {
+            position: absolute;
+            left: 37%;
+            top: 115%;
+            font-weight: 100;
+        }
+    }
+    .contain-esoterismo {
+        grid-row: 3/4;
+        grid-column: 2/3;
+        position: relative;
+        img {
+
+            width: 100%;
+            height: 100%;
+            border: 3px solid rgba(0, 0, 0, 0.75);
+            margin-top: 100px;
+        }
+        h2{
+            position: absolute;
+            left: 30%;
+            top: 115%;
+            font-weight: 100;
+        }
+    }
+    .contain-cuidado-personal {
+        grid-row: 3/4;
+        grid-column: 3/4;
+        position: relative;
+        img {
+            width: 100%;
+            height: 100%;
+            border: 3px solid rgba(0, 0, 0, 0.75);
+            margin-top: 100px;
+        }
+        h2{
+            position: absolute;
+            left: 17%;
+            top: 115%;
+            font-weight: 100;
+        }
+    }
+    .contain-talleres {
+        grid-row: 3/4;
+        grid-column: 4/5;
+        position: relative;
+        img{
+
+            width: 100%;
+            height: 100%;
+            border: 3px solid rgba(0, 0, 0, 0.75);
+            margin-top: 100px;
+        }
+        h2{
+            position: absolute;
+            left: 32%;
+            top: 115%;
+            font-weight: 100;
+        }
+    }
+    img {
+        width: 100%;
+        object-fit: cover;
+    }
+}

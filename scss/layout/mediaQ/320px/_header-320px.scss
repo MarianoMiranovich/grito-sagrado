@@ -1,0 +1,14 @@
+@media (max-width: 320px){
+    header {
+        flex-direction: column;
+        height: 33vh;
+        .logo {
+            width: 55%;
+            height: auto;
+        }
+        nav {
+            justify-content: center;
+        }
+    }
+    
+}

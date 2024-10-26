@@ -1,0 +1,51 @@
+.body-login {
+    align-items: center;
+    background-image: url(../assets/imagenes/fondo-login.jpg);
+    display: flex;
+    flex-direction: column;
+    font-family: $fuente-principal;
+    gap: 100px;
+    .login-container {
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 0 10px map-get($colores-sitio, box-shadow );
+        padding: 20px;
+        width: 300px;
+        h2 {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        input {
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            margin: 10px 0;
+            padding: 10px;
+            width: 100%;
+        }
+        button {
+            background-color: map-get($colores-sitio, principal );
+            border: none;
+            border-radius: 4px;
+            color: white;
+            cursor: pointer;
+            padding: 10px;
+            width: 100%;
+            :hover {
+                background-color: map-get($colores-sitio, button-hover );
+            }
+            
+        }
+
+        .message {
+            margin-top: 10px;
+            text-align: center;
+            a {
+                color: map-get($colores-sitio, principal );
+                text-decoration: none;
+                :hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}

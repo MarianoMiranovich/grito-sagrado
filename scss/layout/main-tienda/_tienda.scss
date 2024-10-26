@@ -1,0 +1,54 @@
+.main-tienda {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: $fuente-principal;
+    gap: 15px;
+    justify-content: center;
+    padding: 10px;
+    .card-producto {
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        width: 250px; 
+        height: 330px;
+        padding: 16px;
+        text-align: center; 
+        box-shadow: 2px 2px 12px map-get($colores-sitio, box-shadow);
+        img {
+            width: 100%;
+            height: 60%;
+            border-radius: 8px ;
+            object-fit: cover;
+            box-shadow: 2px 2px 12px map-get($colores-sitio, box-shadow);
+        }
+        div {
+            width: 100%;
+            height: 40%;
+            display: flex;
+            flex-direction: column;
+            a {
+                color: black;
+                text-decoration: none;
+                margin-bottom: 6px;
+                font-size: 13px;
+            }
+            h3 {
+                font-size: 18px;
+                margin: 12px 0
+            
+            }
+            button {
+
+                color: white;
+                padding: 10px 20px; 
+                border: none; 
+                border-radius: 4px; 
+                cursor: pointer;
+                background-color: map-get($colores-sitio, principal);
+                :hover {
+                    background-color: map-get($colores-sitio, button-hover);
+                }
+            }
+            
+        }
+    }
+}

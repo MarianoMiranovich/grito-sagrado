@@ -1,0 +1,20 @@
+@media (max-width: 1024px){
+    header {
+        flex-direction: column;
+        height: 24vh;
+        .logo {
+            align-self: center;
+            width: 25%;
+        }
+        nav {
+            width: 100%;
+            .ingresar {
+                width: 100%;
+            }
+            .registrarse {
+                width: 100%;
+            }
+        }
+    }
+    
+}

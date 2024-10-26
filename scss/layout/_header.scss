@@ -1,0 +1,9 @@
+header {
+    background-color: map-get($colores-sitio, principal);
+    color: white;
+    display: flex;
+    height: 10vh;
+    justify-content: space-between;
+    width: 100%;
+
+}

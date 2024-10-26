@@ -1,0 +1,54 @@
+@media (max-width: 375px){
+    .section-1{
+        .div-1 {
+            margin-top: 0;
+        } 
+        .div-3{
+            margin-left: 35px;
+        }
+    }
+    .section-2{
+        .boton-catalogo{
+            a {
+                width: 68%;
+                }
+        } 
+    }
+    .section-3{
+        h2 {
+            font-size: 9px;
+            top: 185px;
+        }
+        .h2-terapias {
+            left: 10px;
+        }
+        .h2-recursos {
+            left: 8px;
+        }
+        .h2-reiki {
+            left: 16px;
+        }
+        .h2-esoterismo {
+            top: 187px;
+            left: 5px;
+        }
+        .h2-cuidado-personal {
+            top: 177px;
+            left: 11px;
+        }
+        .h2-talleres {
+            left: 12px;
+        }
+
+    }
+    .section-4 {
+        flex-direction: column;
+        align-items: center;
+        .contain-envios { 
+            border: none;
+        }
+        .contain-seguridad {
+            border: none;
+        }
+    }
+}
