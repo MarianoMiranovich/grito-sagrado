@@ -18,40 +18,54 @@
         }
     }
     .section-3{
-        .h3-banner-2{
-            top: 66%;
-            left: 28%;
-            font-size: 26px;
+        .contain-banner-2{
+            h3{
+                top: 57%;
+                left: 25%;
+            }
         }
-        .h2-cuidado-personal {
-            font-size: 20px;
-            left: 19%;
-            top: 125%;
+        .contain-terapias{
+            h2{
+                font-size: 25px;
+                left: 16%;
+                top: 135%;
+            }
         }
-        .h2-terapias {
-            font-size: 20px;
-            left: 20%;
-            top: 138%;
+        .contain-recursos{
+            h2{
+                font-size: 25px;
+                left: 16%;
+                top: 135%;;
+            }
         }
-        .h2-recursos {
-            font-size: 20px;
-            left: 22%;
-            top: 138%
+        .contain-reiki{
+            h2{
+                font-size: 25px;
+                left: 16%;
+                top: 135%;
+            }
         }
-        .h2-reiki {
-            font-size: 20px;
-            left: 22%;
-            top: 138%
+        .contain-esoterismo{
+            h2{
+                font-size: 25px;
+                left: 16%;
+                top: 135%;
+            }
         }
-        .h2-esoterismo {
-            font-size: 20px;
-            left: 15%;
-            top: 137%;
+        .contain-cuidado-personal{
+            h2{
+                font-size: 25px;
+                left: 16%;
+                top: 120%;;
+            }
         }
-        .h2-talleres {
-            font-size: 20px;
-            left: 23%;
-            top: 137%;
+        .contain-talleres{
+            h2{
+                font-size: 25px;
+                left: 16%;
+                top: 135%;
+            }
         }
+
     }
 }

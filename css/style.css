@@ -548,15 +548,33 @@ nav {
         width: 100%; } }
 
 @media (max-width: 1024px) {
-  .section-3 h2 {
+  .section-3 .contain-banner-2 h3 {
+    top: 57%;
+    left: 25%; }
+  .section-3 .contain-terapias h2 {
     font-size: 25px;
+    left: 26%;
     top: 125%; }
-  .section-3 .h2-cuidado-personal {
-    top: 115%; }
-  .section-3 .h3 {
-    top: 61%;
+  .section-3 .contain-recursos h2 {
+    font-size: 25px;
+    left: 22%;
+    top: 125%; }
+  .section-3 .contain-reiki h2 {
+    font-size: 25px;
     left: 32%;
-    font-size: 28px; }
+    top: 125%; }
+  .section-3 .contain-esoterismo h2 {
+    font-size: 25px;
+    left: 20%;
+    top: 125%; }
+  .section-3 .contain-cuidado-personal h2 {
+    font-size: 25px;
+    top: 115%;
+    left: 24%; }
+  .section-3 .contain-talleres h2 {
+    font-size: 25px;
+    left: 26%;
+    top: 125%; }
   .section-4 {
     width: auto; } }
 
@@ -584,27 +602,33 @@ nav {
     display: none; }
   .section-2 .boton-catalogo a {
     width: 56%; }
-  .section-3 h2 {
-    font-size: 20px;
+  .section-3 .contain-banner-2 h3 {
+    top: 57%;
+    left: 25%; }
+  .section-3 .contain-terapias h2 {
+    font-size: 25px;
+    left: 16%;
     top: 135%; }
-  .section-3 .h2-cuidado-personal {
-    left: 19%;
-    top: 125%; }
-  .section-3 .h2-terapias {
-    left: 21%;
-    top: 137%; }
-  .section-3 .h2-recursos {
-    left: 22%;
-    top: 137%; }
-  .section-3 .h2-reiki {
-    left: 22%;
-    top: 137%; }
-  .section-3 .h2-esoterismo {
-    left: 15%;
-    top: 137%; }
-  .section-3 .h2-talleres {
-    left: 23%;
-    top: 137%; } }
+  .section-3 .contain-recursos h2 {
+    font-size: 25px;
+    left: 16%;
+    top: 135%; }
+  .section-3 .contain-reiki h2 {
+    font-size: 25px;
+    left: 16%;
+    top: 135%; }
+  .section-3 .contain-esoterismo h2 {
+    font-size: 25px;
+    left: 16%;
+    top: 135%; }
+  .section-3 .contain-cuidado-personal h2 {
+    font-size: 25px;
+    left: 16%;
+    top: 120%; }
+  .section-3 .contain-talleres h2 {
+    font-size: 25px;
+    left: 16%;
+    top: 135%; } }
 
 @media (max-width: 768px) {
   footer img {
@@ -668,33 +692,40 @@ nav {
       grid-row: 2/3;
       padding: 10px;
       margin-top: 40px; }
-  .section-3 h3 {
-    top: 80%;
-    left: 24%;
-    font-size: 18px; }
-  .section-3 h2 {
-    font-size: 11px;
-    top: 195px;
-    left: 13px; }
-  .section-3 .h2-recursos {
-    left: 11px; }
-  .section-3 .h2-reiki {
-    left: 22px; }
-  .section-3 .h2-esoterismo {
-    left: 7px; }
-  .section-3 .h2-cuidado-personal {
-    top: 181px; }
-  .section-3 .boton-catalogo {
-    grid-column: 1 / 3;
-    grid-row: 3 /3;
-    width: 25%;
-    justify-self: center;
-    margin-top: 0;
-    margin-bottom: 15px;
-    height: 23px; }
+    .section-2 .boton-catalogo {
+      display: none; }
+  .section-3 .contain-banner-2 h3 {
+    font-size: 18px;
+    top: 76%;
+    left: 25%; }
+  .section-3 .contain-terapias h2 {
+    left: 16%;
+    top: 174%;
+    font-size: 11px; }
+  .section-3 .contain-recursos h2 {
+    left: 10%;
+    top: 175%;
+    font-size: 11px; }
+  .section-3 .contain-reiki h2 {
+    left: 31%;
+    top: 175%;
+    font-size: 11px; }
+  .section-3 .contain-esoterismo h2 {
+    left: 8%;
+    top: 175%;
+    font-size: 11px; }
+  .section-3 .contain-cuidado-personal h2 {
+    left: 15%;
+    top: 165%;
+    font-size: 11px; }
+  .section-3 .contain-talleres h2 {
+    left: 20%;
+    top: 175%;
+    font-size: 11px; }
   .section-4 {
     width: 100%;
-    gap: 20px; }
+    gap: 20px;
+    margin-top: 25px; }
     .section-4 h2 {
       font-size: 21px; }
     .section-4 div {
@@ -722,23 +753,28 @@ nav {
     margin-left: 35px; }
   .section-2 .boton-catalogo a {
     width: 68%; }
-  .section-3 h2 {
-    font-size: 9px;
-    top: 185px; }
-  .section-3 .h2-terapias {
-    left: 10px; }
-  .section-3 .h2-recursos {
-    left: 8px; }
-  .section-3 .h2-reiki {
-    left: 16px; }
-  .section-3 .h2-esoterismo {
-    top: 187px;
-    left: 5px; }
-  .section-3 .h2-cuidado-personal {
-    top: 177px;
-    left: 11px; }
-  .section-3 .h2-talleres {
-    left: 12px; }
+  .section-3 .contain-banner-2 h3 {
+    font-size: 16px;
+    top: 76%;
+    left: 25%; }
+  .section-3 .contain-terapias h2 {
+    left: 16%;
+    top: 177%; }
+  .section-3 .contain-recursos h2 {
+    left: 10%;
+    top: 175%; }
+  .section-3 .contain-reiki h2 {
+    left: 31%;
+    top: 175%; }
+  .section-3 .contain-esoterismo h2 {
+    left: 4%;
+    top: 175%; }
+  .section-3 .contain-cuidado-personal h2 {
+    left: 13%;
+    top: 165%; }
+  .section-3 .contain-talleres h2 {
+    left: 20%;
+    top: 175%; }
   .section-4 {
     flex-direction: column;
     align-items: center; }
@@ -820,13 +856,14 @@ nav {
         position: absolute;
         margin-left: 100px; }
       .section-2 .card-contain-4 img {
-        height: 300px;
-        width: 201px;
-        margin-left: 51px; }
+        object-fit: cover;
+        width: 67%;
+        margin-left: 50px; }
     .section-2 .boton-catalogo {
       order: 1;
       align-self: center;
-      width: 30%; }
+      width: 34%;
+      margin-bottom: 10px; }
   .section-3 {
     display: flex;
     flex-direction: column;
@@ -834,14 +871,38 @@ nav {
     .section-3 .contain-banner-2 {
       border: none;
       width: 100%; }
+      .section-3 .contain-banner-2 h3 {
+        top: 78%;
+        left: 23%;
+        font-size: 17px;
+        font-weight: 100;
+        text-align: center; }
     .section-3 img {
       margin-top: 0;
       height: 264px; }
-    .section-3 h2 {
-      font-size: 25px;
+    .section-3 .h2-terapias {
+      font-size: 20px;
+      left: 100px;
+      top: 215px; }
+    .section-3 .h2-recursos {
+      font-size: 20px;
       left: 100px;
       top: 215px; }
     .section-3 .h2-reiki {
-      left: 126px; }
+      font-size: 20px;
+      left: 100px;
+      top: 215px; }
+    .section-3 .h2-esoterismo {
+      font-size: 20px;
+      left: 100px;
+      top: 215px; }
     .section-3 .h2-cuidado-personal {
-      left: 65px; } }
+      font-size: 20px;
+      left: 100px;
+      top: 215px; }
+    .section-3 .h2-talleres {
+      font-size: 20px;
+      left: 100px;
+      top: 215px; }
+  .section-4 {
+    margin-top: 100px; } }
