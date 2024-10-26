@@ -70,15 +70,16 @@
                 margin-left: 100px;
             }
             img {
-                height: 300px;
-                width: 201px;
-                margin-left: 51px;
+                object-fit: cover;
+                width: 67%;
+                margin-left: 50px;
             }
         }
         .boton-catalogo {
             order: 1;
             align-self: center;
-            width: 30%;
+            width: 34%;
+            margin-bottom: 10px;
         }
     }
     .section-3 {
@@ -87,7 +88,15 @@
         width: auto;
         .contain-banner-2 {
             border: none;
-            width: 100%
+            width: 100%;
+            h3{
+                top: 78%;
+                left: 23%;
+                font-size: 17px;
+                font-weight: 100;
+                text-align: center;
+            }
+
         }
         img {
             margin-top: 0;
@@ -104,5 +113,8 @@
         .h2-cuidado-personal {
             left: 65px;
         }
+    }
+    .section-4{
+        margin-top: 100px;
     }
 }

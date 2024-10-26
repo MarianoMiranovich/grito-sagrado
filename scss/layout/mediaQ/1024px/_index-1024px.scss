@@ -1,19 +1,43 @@
 @media (max-width: 1024px){
     .section-3{
-        h2 {
+        .contain-banner-2{
+            h3{
+                top: 57%;
+                left: 25%;
+            }
+        .h2-terapias{
             font-size: 25px;
-            top:125%;
+            left: 25%;
+            top: 125%;        
+        }
+        .h2-recursos{
+            font-size: 25px;
+            left: 22%;
+            top: 125%;
+        }
+        .h2-reiki{
+            font-size: 25px;
+            left: 32%;
+            top: 125%;
+        }
+        .h2-esoterismo{
+            font-size: 25px;
+            left: 20%;
+            top: 125%;
         }
         .h2-cuidado-personal {
+            font-size: 25px;
             top: 115%;
+            left: 24%;
         }
-        .h3{
-            top: 61%;
-            left: 32%;
-            font-size: 28px;
+        .h2-talleres{
+            font-size: 25px;
+            left: 26%;
+            top: 125%;
         }
     }
     .section-4 {
         width: auto;
     }
+}
 }
