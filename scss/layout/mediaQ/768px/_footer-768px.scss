@@ -1,12 +1,17 @@
 @media(max-width: 768px){
-
-
     footer{
-        img {
-        
-            width: 90%;
-        
+        img{
+            width: 170px;
+        }
     }
+    .contacto{
+        a{
+            img{
+                width: 35px; 
+            } 
+        }
+        div {
+            flex-direction: column;
+        }
     }
-
 }

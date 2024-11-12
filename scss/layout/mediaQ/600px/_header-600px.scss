@@ -1,4 +1,4 @@
-@media(max-width: 425px){
+@media(max-width: 600px){
     header {
         flex-direction: row;
         height: 40vh;
@@ -15,7 +15,7 @@
                 align-items: center;
                 justify-content: center;
                 .ingresar {
-                    width: 80%;
+                    width: 100%;
                     height: 15%;
                     text-align: center;
                     img {
@@ -26,7 +26,7 @@
                     }
                 }
                 .registrarse {
-                    width: 80%;
+                    width: 100%;
                     height: 15%;
                     text-align: center;
                     margin-top: 4px;

@@ -1,7 +1,5 @@
 footer {
     background-color: map-get($colores-sitio, principal );
-    border: 5px solid white;
-    border-radius: 0 0 30px 30px;
     color: white;
     display: flex;
     font-family: $fuente-principal;
@@ -15,29 +13,32 @@ footer {
         color: white;
     }
     img{
-        width: 70%;
+        width: 200px;
     }
     .informacion {
         display: flex;
         flex-direction: column;
         width: 100%;
-        gap: 5px;
+        gap: 15px;
     }
     .recursos {
         display: flex;
         flex-direction: column;
         width: 100%;
-        gap: 5px;
+        gap: 15px;
     }
     .contacto {
         display: flex;
         flex-direction: column;
         width: 100%;
+        gap: 15px;
         div{
             display: flex;
-            margin-top: 15px;
-            img{
-                width: 35%;
+            gap: 10px;
+            a {
+                img {
+                    width: 50px;
+                };
             }
         }
     }

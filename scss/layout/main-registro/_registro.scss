@@ -6,7 +6,7 @@
     font-family: $fuente-principal;
     gap: 100px;
     .registro-container {
-        background-color: map-get($colores-sitio, button-nav );
+        background-color: #fff;
         border-radius: 12px;
         box-shadow: 0 0 20px map-get($colores-sitio, box-shadow );
         padding: 30px;
